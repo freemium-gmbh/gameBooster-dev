@@ -728,7 +728,7 @@ namespace RegistryCleaner
         {
             _bRestoreComplete = false;
             Thread.BeginCriticalRegion();
-            SysRestore.StartRestore("Game Booster " + DateTime.Now, out lSeqNum);
+            SysRestore.StartRestore("Free Gaming Booster " + DateTime.Now, out lSeqNum);
 
             // ToDO: only set this to true if it really was successful!
             _bRestoreSucess = true;

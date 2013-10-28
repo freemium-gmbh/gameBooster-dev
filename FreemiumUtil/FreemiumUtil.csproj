@@ -103,7 +103,7 @@
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy "$(TargetPath)" "$(SolutionDir)GameBooster\$(OutDir)\Libraries\" /Y /S /I /R
+    <PostBuildEvent>xcopy "$(TargetPath)" "$(SolutionDir)FreeGamingBooster\$(OutDir)\Libraries\" /Y /S /I /R
 xcopy "$(TargetPath)" "$(SolutionDir)FreemiumUtilities.RegCleaner\$(OutDir)\Libraries\" /Y /S /I /R
 xcopy "$(TargetPath)" "$(SolutionDir)FreemiumUtilities.StartupManager\Libraries\" /Y /S /I /R
 xcopy "$(TargetPath)" "$(SolutionDir)FreemiumUtilities.TempCleaner\$(OutDir)\Libraries\" /Y /S /I /R

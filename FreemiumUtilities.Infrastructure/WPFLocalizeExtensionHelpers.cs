@@ -16,7 +16,7 @@ namespace FreemiumUtilities.Infrastructure
         public static string GetUIString(string key)
         {
             string uiString;
-            var locExtension = new LocTextExtension(String.Format("GameBooster:Resources:{0}", key));
+            var locExtension = new LocTextExtension(String.Format("FreeGamingBooster:Resources:{0}", key));
             locExtension.ResolveLocalizedValue(out uiString);
             return uiString;
         }

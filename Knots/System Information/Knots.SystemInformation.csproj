@@ -497,6 +497,6 @@
   </PropertyGroup>
   <Import Project="$(MSBuildBinPath)/Microsoft.CSharp.targets" />
   <PropertyGroup>
-    <PostBuildEvent>xcopy "$(TargetDir)*.*" "$(SolutionDir)GameBooster\$(OutDir)" /Y /S /I /R</PostBuildEvent>
+    <PostBuildEvent>xcopy "$(TargetDir)*.*" "$(SolutionDir)FreeGamingBooster\$(OutDir)" /Y /S /I /R</PostBuildEvent>
   </PropertyGroup>
 </Project>

@@ -34,7 +34,7 @@ namespace RegistryCleaner
             {
                 try
                 {
-                    ProcessStartInfo process = new ProcessStartInfo(Path.GetDirectoryName(Assembly.GetExecutingAssembly().GetName().CodeBase) + "\\GameBooster.exe");
+                    ProcessStartInfo process = new ProcessStartInfo(Path.GetDirectoryName(Assembly.GetExecutingAssembly().GetName().CodeBase) + "\\FreeGamingBooster.exe");
                     Process.Start(process);
                 }
                 catch (Exception)
